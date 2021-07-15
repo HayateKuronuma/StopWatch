@@ -1,0 +1,32 @@
+body {
+  color: black;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+p {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.button-container {
+  display: flex;
+}
+
+.button-container :not(:first-child) {
+  margin-left: 10px;
+}
+
+.button {
+  font-size: 30px;
+  background-color: #d4d4d4;
+  height: 60px;
+  border-radius: 5px;
+  padding: 7px 20px;
+}
+
+.button:hover {
+  background-color: #b9b7b7;
+}
