@@ -10,10 +10,10 @@ let diff = 0;
 let startTime;
 let nowTime;
 let addTime = 0;
-let start = document.getElementById("start");
-let stop = document.getElementById("stop");
-let reset = document.getElementById("reset");
-let time = document.getElementById("time");
+const start = document.getElementById("start");
+const stop = document.getElementById("stop");
+const reset = document.getElementById("reset");
+const time = document.getElementById("time");
 
 function pushStart(){
   timerInterval = setInterval(runStopWatch, 10);
